@@ -28,4 +28,5 @@ public class CollateralObjectController {
         Collateral info = service.getInfo(object);
         return info != null ? ResponseEntity.ok(info) : ResponseEntity.notFound().build();
     }
+
 }
